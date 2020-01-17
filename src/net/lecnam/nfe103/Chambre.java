@@ -2,6 +2,12 @@ package net.lecnam.nfe103;
 
 public class Chambre {
 
+    public enum Categorie {
+        Eco,
+        Confort,
+        ConfortPlus;
+    }
+
     private int num_chambre;
 
     public Chambre(int num_chambre) {
